@@ -1,0 +1,148 @@
+header {
+  background-color: rgb(244, 236, 234);
+}
+
+body { 
+  background-color: rgb(244, 236, 234);
+  margin-left:0;
+  margin-right:0;
+}
+
+h1{
+  text-align: center;
+  background: rgb(244, 236, 234);
+  font-family: 'Tilt Neon', sans-serif; 
+  font-size: 40px;
+}
+
+h2{
+  margin-top:5px;
+  margin-bottom:5px;
+  padding: 5px;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 30px;
+}
+
+#nombre{
+  font-size: 25px;
+  font-family: 'Lucida Sans Regular', sans-serif;
+  
+}
+small{
+  font-size: 70%;
+}
+
+#mision{
+  color: rgb(147, 69, 113);
+  text-align: center;
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 30px;
+}
+
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: rgb(42, 16, 9);
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  border-radius: 20px;
+  background: rgb(138, 207, 240);
+  flex: 1;
+  margin: 3px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+li:hover{
+  background-color: #ddd;
+  border: 1px solid #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#footext{
+  font-size: 30px;
+}
+
+footer {
+  margin-top: 0;
+  align-self: flex-end;
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+} 
+ .floating-icons{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+ }
+ .floating-icons img{
+  margin-left: 10px;
+ }
+ .whatsapp-icon {
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: 50px;
+  display: inline-block;
+  background: url('imagenes/whatsapp_3670051.png') no-repeat center center;
+  background-size: cover;
+}
+.facebook-icon {
+  transition: transform 0.3s ease-in-out;
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: 50px;
+  display: inline-block;
+  background: url('imagenes/facebook_5968764.png') no-repeat center center;
+  background-size: cover;
+}
+
+.rotar-icono {
+  font-size: 24px; /* Ajusta el tamaño del icono según tus necesidades */
+  display: inline-block; /* Asegura que el elemento se comporte como un bloque en línea */
+  transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+#textoCreditos{
+  font-size: 30px;
+}
+
+@media only screen and (max-width:380px) {
+   
+  /*html {
+    overflow-y: scroll; 
+  }*/
+  
+   body{
+      height: 100%;
+      width: 100%;
+      background-size: 100%;
+     /*overflow-y: hidden;*/
+   }
+   ul{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+   }
+
+p{
+  font-size: 40px;
+}
+
+   footer{
+      align-self: flex-end;
+       margin-top: 30px;
+       height: 100%;
+       width: 100%;
+   }
+
+}
