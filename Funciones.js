@@ -1,4 +1,4 @@
-alert( 'Aún no esta lista' );
+
 function rotarIzquierdaYDerecha(elemento) {
     elemento.style.transform = 'rotate(-18deg)';
     setTimeout(() => {
