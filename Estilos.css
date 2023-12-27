@@ -1,0 +1,185 @@
+
+header {
+  margin:-10px;
+  background-color: rgb(233, 5, 119);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%; /* Ajusta según tus necesidades */
+}
+
+h1{
+  margin-top: -10px;
+  text-align: center;
+  background: rgb(240, 53, 122);
+  font-family: 'Tilt Neon', sans-serif; 
+  font-size: 40px;
+}
+
+h2{
+  margin-top:5px;
+  margin-bottom:5px;
+  padding: 5px;
+  font-family: 'Gill Sans', sans-serif;
+  font-size: 25px;
+}
+
+#nombre{
+  margin-top: 0px;
+  font-size: 25px;
+  font-family: 'Lucida Sans Regular', sans-serif;
+  
+}
+small{
+  font-size: 70%;
+}
+
+#mision{
+  color: rgb(222, 191, 209);
+  text-align: center;
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 30px;
+}
+#domicilio{
+  margin-top:0px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+ul {
+  margin: -10px;
+  padding: 0;
+  background-color: rgb(227, 60, 166);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* Estilos para cada elemento de la lista */
+
+li {
+  width: calc(33.33% - 25px); /* 20px de margen entre elementos */
+  margin: 10px; /* Ajusta según tus necesidades */
+  border-radius: 20px;
+  background: rgb(138, 207, 240);
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+li:hover{
+  background-color: #ddd;
+  border: 1px solid #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.colors, .colors2{
+  font-size: 25px;
+  margin-top: 20px;  
+}
+
+.colors div, .colors2 div{
+  display: inline-block;
+  width: 20px; 
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#footext{
+  font-size: 30px;
+}
+
+footer{
+  margin:-7px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px; 
+  background-color: rgb(122, 176, 233);
+  color: rgb(242, 230, 230); 
+}
+#textoCreditos {
+  margin-left: 40%;
+  font-size: 20px;
+  margin-right: 10px; 
+}
+
+#linkedin {
+  margin-left: 50%;
+}
+
+
+ .floating-icons{
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+ }
+ .floating-icons img{
+  margin-left: 10px;
+ }
+ .whatsapp-icon {
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: 50px;
+  display: inline-block;
+  background: url('imagenes/whatsapp_3670051.png') no-repeat center center;
+  background-size: cover;
+}
+.facebook-icon {
+  transition: transform 0.3s ease-in-out;
+  width: 50px; /* Ajusta el tamaño según sea necesario */
+  height: 50px;
+  display: inline-block;
+  background: url('imagenes/facebook_5968764.png') no-repeat center center;
+  background-size: cover;
+}
+
+.rotar-icono {
+  font-size: 24px; /* Ajusta el tamaño del icono según tus necesidades */
+  display: inline-block; /* Asegura que el elemento se comporte como un bloque en línea */
+  transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+
+
+@media only screen and (max-width:500px) {
+  
+  #domicilio{
+    margin-bottom: 10%;
+  }
+  
+  /* Estilos para cada elemento de la lista */
+  li {
+    width: 44.7%; /* 20px de margen entre elementos */
+    margin: 8px; /* Ajusta según tus necesidades */
+    margin-bottom: 0px;
+  }
+  .colors{
+    display: inline-flex;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  .floating-icons{
+      position:fixed;
+      left: 25%;
+      
+      margin-bottom: 10%;
+    }
+    footer {
+      margin-right:-10px;
+      margin-top: 0px;
+    }
+  
+}
+
