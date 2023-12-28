@@ -156,17 +156,21 @@ footer{
     margin-bottom: 10%;
   }
   ul{
+    display: flex;
+    padding-left:0;
+    text-align: center;
     margin-top:-8%;
+    justify-content: center;
   }
   
   /* Estilos para cada elemento de la lista */
   li {
-    width: 44.7%; /* 20px de margen entre elementos */
+    padding: 0 1px;
+    margin-left:0;
+    display: inline-block;
+    width: 43.5%; /* 20px de margen entre elementos */
     margin: 8px; /* Ajusta según tus necesidades */
     margin-bottom: 0px;
-  }
-  .colors{
-    display: inline-flex;
   }
 
   p {
@@ -175,7 +179,7 @@ footer{
 
   .floating-icons{
       position:fixed;
-      left: 25%;
+
       
       margin-bottom: 10%;
     }
